@@ -1,0 +1,756 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Plugin.providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Bundle-Name: %Plugin.name
+Bundle-SymbolicName: org.eclipse.gef.examples.logic; singleton:=true
+Bundle-Activator: org.eclipse.gef.examples.logicdesigner.LogicPlugin
+Require-Bundle: org.eclipse.gef;bundle-version="[3.6.0,4.0.0)",org.ecl
+ ipse.core.runtime;bundle-version="[3.2.0,4.0.0)",org.eclipse.core.res
+ ources;bundle-version="[3.2.0,4.0.0)",org.eclipse.ui.views;bundle-ver
+ sion="[3.2.0,4.0.0)",org.eclipse.ui.workbench;bundle-version="[3.2.0,
+ 4.0.0)",org.eclipse.ui.ide;bundle-version="[3.2.0,4.0.0)",org.eclipse
+ .jface;bundle-version="[3.2.0,4.0.0)"
+Bundle-Version: 3.6.1.v20100908-2020
+Export-Package: org.eclipse.gef.examples.logicdesigner,org.eclipse.gef
+ .examples.logicdesigner.actions,org.eclipse.gef.examples.logicdesigne
+ r.dnd,org.eclipse.gef.examples.logicdesigner.edit,org.eclipse.gef.exa
+ mples.logicdesigner.figures,org.eclipse.gef.examples.logicdesigner.mo
+ del,org.eclipse.gef.examples.logicdesigner.model.commands,org.eclipse
+ .gef.examples.logicdesigner.palette,org.eclipse.gef.examples.logicdes
+ igner.rulers
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicCreationWizard.class
+SHA1-Digest: I+GM9ZDAe8PHNISZyB4albfiRcg=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led0.gif
+SHA1-Digest: keUXAl9swG/BeSGisDbLnT6J3hI=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/and24.gif
+SHA1-Digest: VAanijxyOGlI9F43GMCfmA/XucI=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor.class
+SHA1-Digest: sCa7u5B+Vap8RBIKOzXhD7vur+k=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led4.gif
+SHA1-Digest: Ek373c3bb2cfu6WuuYy5VnlL4oQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/or24.gif
+SHA1-Digest: DBrvzBEPyBnqu5vWrasu+smp4P4=
+
+Name: org/eclipse/gef/examples/logicdesigner/actions/IncrementDecremen
+ tAction.class
+SHA1-Digest: kELTmkVEippZyBo0Ay/9FdGjk1E=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$ResourceTrack
+ er.class
+SHA1-Digest: ZdaH3nHRxtEkKia8Cuh2/6kVOSQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/halfadder16.g
+ if
+SHA1-Digest: iEYOEgKkMTTDtFV71qqtAofYKY4=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led8.gif
+SHA1-Digest: j6e+Ge+34DJUHJWY4TxhKIVnX94=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LEDFeedbackFigure
+ .class
+SHA1-Digest: QlXQYdz5jdOgJBiCqOFS9I0S+o8=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/CircuitBorder.cla
+ ss
+SHA1-Digest: 3SXQr4ITR3JZEAL3kwcPsbu9RVU=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicTreeEditPolicy.
+ class
+SHA1-Digest: 0uyZ5aaWPH3FIVnM9Xi2C9NPZvY=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/zoomplus.gif
+SHA1-Digest: /WrLdtYvmFmKahA6xCf4FVtALF0=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$7.class
+SHA1-Digest: /8cqIdLSzC4g4vgAj3UU7CDHeNQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/logicflow16.g
+ if
+SHA1-Digest: p2bXyreUwQsfjKm2Bcv5trr+dr8=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicLabelEditManage
+ r.class
+SHA1-Digest: yuDJ1RGWEjKgVh5YH0csKPf+p+M=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/connection16.
+ gif
+SHA1-Digest: RLA4z1UrLO3wKHRzwDCXqLPGpmE=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/GroundFeedbackFig
+ ure.class
+SHA1-Digest: dx2LQQMh0fx/MALqLGNsTcQGaBI=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/ground24.gif
+SHA1-Digest: RkaFL4HXyNfyIp/yMuLmjggeO04=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/fulladder16.g
+ if
+SHA1-Digest: iKlluHkfFY0ThlgMleCdziuDLH8=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/WireEndpointEditPoli
+ cy.class
+SHA1-Digest: I5psAZDWiheSzCjsHGbjTyKXq04=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/SimpleOutput.class
+SHA1-Digest: 1eT2YokSUenObzqslYf1U1rZ5DM=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$13.class
+SHA1-Digest: 0PZSK/jwNQZ3Eiqqdnl2YB1IeFs=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/DeleteBend
+ pointCommand.class
+SHA1-Digest: 0i0TAWV0lMzhrdI9PYDn6LuVbRs=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LEDEditPart.class
+SHA1-Digest: SxsvdkuW0NxkSJvZkk0WowrDmgI=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/GraphicalPartFactory
+ .class
+SHA1-Digest: 8HbrB5ovOU6xxtGg+xb1WyibziM=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/ledbgprim.g
+ if
+SHA1-Digest: BsGFB7S743kh+pksZII5pKzDtAw=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/OutputEditPart$1.cla
+ ss
+SHA1-Digest: FzFzxcI6S0A/knlZA4OVXbwPo6o=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/CreateComm
+ and.class
+SHA1-Digest: klr0aOn1F8roVY95O3cPzrOP2r4=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/OrGateFigure.clas
+ s
+SHA1-Digest: Vx5W5ysV+nZ9TF+uMbOL1afV2RA=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/starledbg.b
+ mp
+SHA1-Digest: W81VjZ493ibYvu/r8EiwMxgTwUI=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/ledicon16.gif
+SHA1-Digest: f3IN85IMWDvFjhdE55AnkxvKbUs=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$4.class
+SHA1-Digest: zrKoM5xdzZolMR4VRd2Ac0xTO9k=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/DeleteGuid
+ eCommand.class
+SHA1-Digest: 6oEpHPtZiYdgtWu30Z4ezuPxhjg=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicSubpart.class
+SHA1-Digest: 5iDhq0Yl+LAnJYClMP8nLxJOqbc=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/arrow16.gif
+SHA1-Digest: S6qV06YvzYFS1LyO7+8rsZeSDBM=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicXYLayoutEditPol
+ icy.class
+SHA1-Digest: 5tz5UxFOP1zA5JEBoO69GYvXw7M=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicElement.class
+SHA1-Digest: +S6slrOQxyE7/sy9RHuMZrjchOU=
+
+Name: org/eclipse/gef/examples/logicdesigner/actions/LogicActionBarCon
+ tributor.class
+SHA1-Digest: WnY9H+eIXji3risWeJdJxJxrtjk=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/WireBendpointEditPol
+ icy.class
+SHA1-Digest: Emv6joBZ6pK20FjxEHPrVPjkjeM=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/and16.gif
+SHA1-Digest: Ns8soNCy25UFU1lLF4UZoquZk88=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/or16.gif
+SHA1-Digest: E2mRxeVyWcegSJohjalosDNV7H4=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LiveOutput.class
+SHA1-Digest: fK5L1679srhTEVfzF/3fhwyzHaE=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicLabelEditManage
+ r$1.class
+SHA1-Digest: 59mlbpQFVM977o2vH4GRI0lSzro=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicNodeEditPolicy.
+ class
+SHA1-Digest: 7z8bJdq17nYDuJlmwMnmQ2xxaCY=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/OrGateFeedbackFig
+ ure.class
+SHA1-Digest: jyG1UEGDvXWvHBjZyOLNN4LwYzU=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$10.class
+SHA1-Digest: 6TfmkJIaicygi4rotI0f5MljvDQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/icons/overview.gif
+SHA1-Digest: 5lQpOjdgcSMXSt5bE4JX4MeQLLc=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/WireEditPolicy.class
+SHA1-Digest: nNUxFNJL7Nt62AiNdFTri0f0nCA=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicTreeContainerEd
+ itPolicy.class
+SHA1-Digest: A088oMsvhyaIV50bKOm6DBETOxs=
+
+Name: org/eclipse/gef/examples/logicdesigner/rulers/LogicRulerProvider
+ $2.class
+SHA1-Digest: 6cSWxBJtdH8bprjVIhnTZpNcwXw=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LogicColorConstan
+ ts.class
+SHA1-Digest: 11vVpRX5l1bL7C0WsaA8HCeRUPs=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led3.gif
+SHA1-Digest: 0iMI9CGi6dxrr0UsPOs18l5SCuA=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led7.gif
+SHA1-Digest: flDNDN1UuhJEH/oBa1J8PTglpdU=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/GroundOutput.class
+SHA1-Digest: Si7686/QJsVTS/+hbTr0RW/Acfc=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/WireEditPart$1.class
+SHA1-Digest: LYwdp/KApDshz0s74YosISjml64=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LiveOutputFigure.
+ class
+SHA1-Digest: 5B4SlGyQe4C+x4W82xOTh/ifs7w=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/ground16.gif
+SHA1-Digest: B0TOV3SoM02gIVdOHQf0Dcj8AvM=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$1.class
+SHA1-Digest: 8ZZsVwlfglIaYEfq7/ETs8wuuww=
+
+Name: org/eclipse/gef/examples/logicdesigner/icons/outline.gif
+SHA1-Digest: zP70CE3lcwVcEElD4m+J6u+26jQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$9.class
+SHA1-Digest: indogGWE5zRM7KAHFIy1LQb6a8o=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicDiagramEditPart
+ $1.class
+SHA1-Digest: rx+DamtiSEMtfuX0DdivFUhPZQs=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/AndGateFigure.cla
+ ss
+SHA1-Digest: JU5cHjexN24Eyg7d2r5vmEUj5n0=
+
+Name: org/eclipse/gef/examples/logicdesigner/actions/PrintModeDialog.c
+ lass
+SHA1-Digest: TOAqp86F8EQZXNiIf92uxY6rgjo=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/label24.gif
+SHA1-Digest: dqveGTeDLQPUQ5hoBokWnxUxSqg=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/zoomminus.gif
+SHA1-Digest: P4fpY1iKDamCCby0pvv5Zid/3uU=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LogicFlowFeedback
+ Figure.class
+SHA1-Digest: Q1zd+UiQOp9h7hO3qPwP5n8d29M=
+
+Name: org/eclipse/gef/examples/logicdesigner/actions/IncrementRetarget
+ Action.class
+SHA1-Digest: AYypo3ER3meR+5cf6cwCtinTyfY=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicLabelEditPart.c
+ lass
+SHA1-Digest: EG2hzb4ZdFA+vyaaR8Fr+i1xxlo=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LabelDirectEditPolic
+ y.class
+SHA1-Digest: rXq8kdH/5PhayaWcACH4g8jbDXk=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/comp.gif
+SHA1-Digest: xlvBC58pHdKH5rMdOfh4SdzTVEY=
+
+Name: org/eclipse/gef/examples/logicdesigner/rulers/LogicRulerProvider
+ .class
+SHA1-Digest: WWpoxqEgU1dyRnLEAwe4/9bPPpQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicDiagramFactory
+ $2.class
+SHA1-Digest: +ZkkC+w+QX4oQ7dk0eHqjJ8wRgE=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicElementEditPoli
+ cy.class
+SHA1-Digest: AC6wlA39hm6zpmM0C81sYzy4/gM=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/MoveGuideC
+ ommand.class
+SHA1-Digest: XIpWcmRKgM3hsO9FLDK0ThtuwWs=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/can.gif
+SHA1-Digest: 0POhzBx8MUdj8vkQS9H73tRdAu0=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/AndGateFeedbackFi
+ gure.class
+SHA1-Digest: qxXA7DdIRMxpMGL98kebapGU5XU=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/AddCommand
+ .class
+SHA1-Digest: NpWlh6SfBGUXCQziwH8uTfyxrsI=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/CircuitFigure.cla
+ ss
+SHA1-Digest: qiZJAnjFwflJESx893DbLJZ4CnI=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/GateEditPart.class
+SHA1-Digest: vvM+3aLNmzbjV1N0yG0880KNQ54=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LocationPropertySou
+ rce.class
+SHA1-Digest: qFKiDF+sdCo6FlC9FZpur6ZYieQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/DimensionPropertySo
+ urce.class
+SHA1-Digest: 9ScUr4sVRR4e/k5PSx9ZO/BPAt4=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/CreateBend
+ pointCommand.class
+SHA1-Digest: EV/KUiyJPrAVJJh/3K7RXNKnE24=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/GateFigure.class
+SHA1-Digest: cKXUEk7IrGZ6d1if+7LNdrYFEVw=
+
+Name: plugin.properties
+SHA1-Digest: ev2zaudel9mKNSyuHMAl5eJHFp8=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicTreeEditPart.cl
+ ass
+SHA1-Digest: b+IMRQD/2VWzM9bueG9et8IjYKg=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/LogicLabel
+ Command.class
+SHA1-Digest: RyMu6Vep5cxXCiX5yeWoMqnokiI=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/GateEditPart$1.class
+SHA1-Digest: zN7kjNjsHeAknxzU8ZjkXqSxxxE=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicWizardPage1.class
+SHA1-Digest: hKJ+LD+ihk/5taAWu/26+7uxGZg=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$6.class
+SHA1-Digest: 2HmSZWb/AlRkcS+VYh/Cs1iIqb4=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicLabel.class
+SHA1-Digest: pU7aUMxEFAaJwQPgMTmk0jDwd+s=
+
+Name: plugin.xml
+SHA1-Digest: j0TREu2aYGddc7We+d3EuXw4Pe0=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicGuide.class
+SHA1-Digest: QPzRful6MjYKlqJWBDgpaOaXkEo=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LEDFigure.class
+SHA1-Digest: cT1mIIm5kx13QtGTr9NvPEC5P44=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LabelFeedbackFigu
+ re.class
+SHA1-Digest: GOezlQfC0EdMfczLV8Q/81m5V84=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$12.class
+SHA1-Digest: +hN7PBy/8wtr3wlXmviZUiFf4Uk=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicDiagram.class
+SHA1-Digest: tCm/aV+Bd8UHBkYqdakGsN3hf+0=
+
+Name: org/eclipse/gef/examples/logicdesigner/dnd/FileTransferDragSourc
+ eListener.class
+SHA1-Digest: u7ecl15UbFGClO50mazbu3qonDs=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicContainerEditPo
+ licy.class
+SHA1-Digest: AFr6+jrjYeuIEFS39UIOl/bDmZU=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicContainerEditPa
+ rt.class
+SHA1-Digest: oIg+Ro+kQ4ufI3UeyW/AhwbsZbM=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/BentCornerFigure.
+ class
+SHA1-Digest: KmlthkiL/6+sdRBFnpTq6+bkqso=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicNumberCellEdit
+ orValidator.class
+SHA1-Digest: ks+ABsimBstXN9/LdsokmxSUGvo=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/WireEditPart.class
+SHA1-Digest: 8zRumbKZ7Aoq6xP0JXU5Qwatos0=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/label16.gif
+SHA1-Digest: HteWuocCLqDjihEUkxQ2BaY0IlI=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led2.gif
+SHA1-Digest: mlhJXuw5Weht4WwT8Mk+3BpqapI=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/GroundFigure.clas
+ s
+SHA1-Digest: Mw6hmfKdyudgfwSiEIVm4NnsYsc=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led6.gif
+SHA1-Digest: jD6Bcq+44FmXM7qor0MKtkFs/oY=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicContainerEditPa
+ rt$1.class
+SHA1-Digest: MrBHwrqfzzXadXz7yVv1ibKwpyI=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LEDEditPart$2.class
+SHA1-Digest: pqR+k38T0L8+nAYtNuHm7dNjaBM=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicDiagramEditPart
+ .class
+SHA1-Digest: cs7M5X6VqEv6zqOy7I/+ZkL6kdQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/live24.gif
+SHA1-Digest: lQn0O2yl0dvVJMTO0Q2UH45tA+0=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicEditPart.class
+SHA1-Digest: cy0Pd21dbmujoTOEtLG+RIwjFW0=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$3.class
+SHA1-Digest: Fjw2jB6MEUrcvP9+mZhgAVEqymg=
+
+Name: org/eclipse/gef/examples/logicdesigner/actions/LogicPasteTemplat
+ eAction.class
+SHA1-Digest: CV1pmqVWJuT9Zr6N2aVE2+DpeHU=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/circuit24.gif
+SHA1-Digest: /Z0DVr9DtF4LRvTjAJRAZPRJu60=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/ChangeGuid
+ eCommand.class
+SHA1-Digest: +PWv4UzfDFzYyLYF7b6qPfvlcYk=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/Circuit.class
+SHA1-Digest: bwR9qE5RlzeyoGXRaTXLWbY95JM=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/CircuitEditPart.clas
+ s
+SHA1-Digest: R/vH9BDKNpaCo3A6L0haWNV5leE=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/ledbg.gif
+SHA1-Digest: 9WWHy/efBHfeZNLyjlvueG+/t68=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicResizableEditPo
+ licy.class
+SHA1-Digest: aBXoEjQ0jmUmo2swUwiBwJw3JeI=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/Connection
+ Command.class
+SHA1-Digest: q9ziK7Rg+YpUWVqcWWkNb48JBfk=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/CircuitEditPart$1.cl
+ ass
+SHA1-Digest: LyMjTlbd0PlvTKidMF05tgh+quQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/CircuitFeedbackBo
+ rder.class
+SHA1-Digest: /xdcXY4ODVY2iDDUWHyvXd98+aY=
+
+Name: logic.gif
+SHA1-Digest: 0rCuAMRwaAb1jtiQAw6eZyiR+ms=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/XORGate.class
+SHA1-Digest: I/lV5T9GbCzGgIZr526vcRP1JHY=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicContainerTreeEd
+ itPart.class
+SHA1-Digest: 9W99RqGawHvT473D9eyaycAqosU=
+
+Name: org/eclipse/gef/examples/logicdesigner/palette/LogicPaletteCusto
+ mizer.class
+SHA1-Digest: 7TqH4/3whFyTka2AuZDEzzplN9Y=
+
+Name: org/eclipse/gef/examples/logicdesigner/rulers/LogicRulerProvider
+ $1.class
+SHA1-Digest: 47/7+RH1oEmxobDkJppV1vogWLg=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/XOrGateFigure.cla
+ ss
+SHA1-Digest: xw9NWuFiU/qJE6K3LuJ03mn+t4M=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/downtab.bmp
+SHA1-Digest: TFFNbcD/+JhNHEiGq6+rKShWUmI=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/ledbgsel.gi
+ f
+SHA1-Digest: ChI+OBgQdtnVDEUQyBsJueAjqOs=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicPlugin.class
+SHA1-Digest: Xb5Pdj9BkFSvf2SACvnCT4YTHoI=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LabelCellEditorLocat
+ or.class
+SHA1-Digest: XseUVyCkaUL+ubwkZ6jzqZf0dJk=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$8.class
+SHA1-Digest: mvkyRRHtVqQVvFyMFtmLX066vhg=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicRuler.class
+SHA1-Digest: ZygZm7rTto0rfaVCeIF8001yGhQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/FigureFactory.cla
+ ss
+SHA1-Digest: NQaAsFw7F4UC0Sdgj4BCPKPns5k=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/WireBendpoint.class
+SHA1-Digest: 93V9yqyyEo+qNjz+N+NQlOQKxtc=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/CreateGuid
+ eCommand.class
+SHA1-Digest: 4507EI//2zfpVfNRMkGnpKuhiTY=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/XOrGateFeedbackFi
+ gure.class
+SHA1-Digest: VwsXbaL47ey4Y9WrdY+A/DmZwzA=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/uptab.bmp
+SHA1-Digest: RtMudX7F9qi3SBbolt3iIiEryqA=
+
+Name: about.html
+SHA1-Digest: upsJNogaGlPvrCoyWxm5ik9e9Bk=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicFlowContainerEd
+ itPart.class
+SHA1-Digest: sZVbCETN6AFpREUcyHfxfDfsHnk=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicDiagram$Connec
+ tionRouterLabelProvider.class
+SHA1-Digest: xCanawgx18lLy25IDsk5sxIoF4w=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicDiagramFactory
+ $1.class
+SHA1-Digest: ilDWOMj/CtS82MYe85Y5l1j2Yms=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/live16.gif
+SHA1-Digest: eTB5xr1oKwaQMo/J5IjpArn4OyA=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/circuit16.gif
+SHA1-Digest: MJWc+KIdSMwpsJ0FtiKf0Zxb6l4=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/NativeDropRequest.cl
+ ass
+SHA1-Digest: 2IRSIOB4xx65bv3VFTyWvdtGOmk=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LEDEditPolicy$Increm
+ entDecrementCommand.class
+SHA1-Digest: vhfmUCfx6cnA8WAEKZ+Hv2jlSzM=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/OutputFigure.clas
+ s
+SHA1-Digest: 2DPPaOCvyicCOnwoby6SownqLSI=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/NodeFigure.class
+SHA1-Digest: DEKHeZw2uJNj+Ekkq/kJePkgvzk=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led1.gif
+SHA1-Digest: Ch2V3p92ZHxCUpO6C6a1aNi+pKw=
+
+Name: org/eclipse/gef/examples/logicdesigner/messages.properties
+SHA1-Digest: s2ISmGwNFRPpfe2Qq67U3gq7f/A=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/SetConstra
+ intCommand.class
+SHA1-Digest: HRruYLJ7e5IHU6Tt2tLKwFE3ybc=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/xor24.gif
+SHA1-Digest: OsFNQU0aw9b679DA+NElLC1OzX4=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led5.gif
+SHA1-Digest: 2iJyYQ5+sr2u/+qcj6OGoTPxmLM=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/OutputEditPart$2.cla
+ ss
+SHA1-Digest: 5krV+2WaiChHG6qzgmX881RPZ64=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/icons/led9.gif
+SHA1-Digest: nqG1vbVlfm3OEDsDKRSaJQLnwKI=
+
+Name: org/eclipse/gef/examples/logicdesigner/actions/LogicPrintAction.
+ class
+SHA1-Digest: q1VEVuIK3GN4PqOhlKV7RPTKJfk=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$5.class
+SHA1-Digest: VpR4HHro+wY1Gy4CsBK4Cu9eekA=
+
+Name: org/eclipse/gef/examples/logicdesigner/icons/plus.gif
+SHA1-Digest: pkbfXcksG6xfTqXYfL6gwOlD/6Y=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicFlowContainer.
+ class
+SHA1-Digest: fRIQhc4E4QE5zuAVU6ngGMDCMP4=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/MoveBendpo
+ intCommand.class
+SHA1-Digest: kRbUtlE3KWTW3+7hFJ8zrFYB9F0=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicFlowEditPolicy.
+ class
+SHA1-Digest: op6MQScqrqVvmnpC1X4KZJPqFH8=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicMessages.class
+SHA1-Digest: maVz+qprqD/TRTbDbdGzr3huL+0=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/halfadder24.g
+ if
+SHA1-Digest: 4HiS1vX82uNkl8YlhANCi6DAqzw=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/Gate.class
+SHA1-Digest: g8pV53jMBq0sVgrLLceeBUTU5OE=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LiveOutputFeedbac
+ kFigure.class
+SHA1-Digest: AVNMHdOulcBNez7iRrgbVM9TXmM=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/AndGate.class
+SHA1-Digest: BrBJPbvSexrM3ZtmZNoPeCN2Etk=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$11.class
+SHA1-Digest: rPHDAosSVUN7FIRUWAJqsEIz4WA=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/logicflow24.g
+ if
+SHA1-Digest: TX+58o2dSS36goAwUC6mW2GBLpg=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/OutputEditPart.class
+SHA1-Digest: sYeJxBgFhksbGmDVH/DignsLnL8=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicContextMenuProvider.
+ class
+SHA1-Digest: +LSGOWeB/wbBbLO+dWEvdF/l3Gc=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LED.class
+SHA1-Digest: SKbhvpO+oTEowShh0rzr2ivi3Jc=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LEDEditPolicy.class
+SHA1-Digest: pIXbMW3YuoaE8T5iUe3I22JFpo8=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/connection24.
+ gif
+SHA1-Digest: 9v2GUHNreNx5qELI7MCrsRo2Rd8=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/CloneComma
+ nd.class
+SHA1-Digest: 8gAWL5M7SGg6EqOX1iB7ha4r+C0=
+
+Name: org/eclipse/gef/examples/logicdesigner/actions/PasteTemplateActi
+ on.class
+SHA1-Digest: yHckm9WDSDXtjn23TOdKwwOsyzU=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/fulladder24.g
+ if
+SHA1-Digest: +hLSS7hqJg+je3+jBznJuK/7miE=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LEDEditPart$1.class
+SHA1-Digest: 5r/2+PpPowU3i/3C/j0ZN7CWfpo=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LogicFlowBorder.c
+ lass
+SHA1-Digest: hJxy8arReFW55cK3hRqPnrPS6uQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/TreePartFactory.clas
+ s
+SHA1-Digest: 9ZQJHg4ubveEFtDkMOkRcwgd0VM=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/OrphanChil
+ dCommand.class
+SHA1-Digest: /QDkag9cNA+HVmFMDtFk4i99a6E=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$2.class
+SHA1-Digest: EgcQT+7JMr2/n8EXLX/GRLdFnKg=
+
+Name: org/eclipse/gef/examples/logicdesigner/actions/DecrementRetarget
+ Action.class
+SHA1-Digest: rnNIfKPwWYMGWPQyO6G5c7aACqk=
+
+Name: org/eclipse/gef/examples/logicdesigner/icons/logicbanner.gif
+SHA1-Digest: FIVEtkqfrEvOO2sKY58n+5lUttI=
+
+Name: org/eclipse/gef/examples/logicdesigner/dnd/TextTransferDropTarge
+ tListener.class
+SHA1-Digest: vYHxPkhRK0lKOTnvKi/Iy/7e7pw=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/FixedConnectionAn
+ chor.class
+SHA1-Digest: iMa9atZFR74ZDqRO8JdVMDfkofo=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/LogicDiagramFactory
+ .class
+SHA1-Digest: YCgMCBDvhCiZjpBZcsn3+ps5o4g=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/Wire.class
+SHA1-Digest: 5cuFgRpApb+dibBuLIr4YHXC3QI=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/xor16.gif
+SHA1-Digest: T3oX3t7iRO+0f/wb8BvCW8Nxik4=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/CircuitFeedbackFi
+ gure.class
+SHA1-Digest: kk08Sz7z9DlxMJZ4ALTKBbs02jE=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/ContainerHighlightEd
+ itPolicy.class
+SHA1-Digest: 2SHEAhBPgHSOJYX6yxuicJx9W3E=
+
+Name: org/eclipse/gef/examples/logicdesigner/icons/logic.gif
+SHA1-Digest: 0rCuAMRwaAb1jtiQAw6eZyiR+ms=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/BendpointC
+ ommand.class
+SHA1-Digest: yXvp8SM9yz+NmPBGCKmn7935NdA=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicLabelEditPolicy
+ .class
+SHA1-Digest: DPBGSCZMzvrN3f9qf1jpx9AoSXE=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/ledicon24.gif
+SHA1-Digest: gSliFpODTvbxwvwez6USNuBVGtQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/LogicEditor$OutlinePage.c
+ lass
+SHA1-Digest: nb4hm9yzK7zQjC3ap494l/FdEwU=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/OrGate.class
+SHA1-Digest: XurAoh0NyXN4LpV57BV0w6KCqVk=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/icons/arrow24.gif
+SHA1-Digest: +CCn2NdoV28K1M2Y6FAbIBbF8cQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/LogicFlowFeedback
+ Border.class
+SHA1-Digest: RP6waoj6qdVJfplc+nJ1QZlgZdA=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/ReorderPar
+ tCommand.class
+SHA1-Digest: /uYPRwE9iPGPwW2drO2U1STm0tk=
+
+Name: org/eclipse/gef/examples/logicdesigner/figures/StickyNoteFigure.
+ class
+SHA1-Digest: LLF/ItipneUbsD+NhObOBWXBXyY=
+
+Name: org/eclipse/gef/examples/logicdesigner/model/commands/DeleteComm
+ and.class
+SHA1-Digest: v90rqmmmUtiSjZ42TWNpgzxeYLQ=
+
+Name: org/eclipse/gef/examples/logicdesigner/edit/LogicLabelEditPart$1
+ .class
+SHA1-Digest: ZWH7Ue2RhuVKCx92vAeLIOHdJ8g=
+
+Name: org/eclipse/gef/examples/logicdesigner/icons/minus.gif
+SHA1-Digest: nJ4gvCfFnXrPumQkPBqZwzt2psk=
+
